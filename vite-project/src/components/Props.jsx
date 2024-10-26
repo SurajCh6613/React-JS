@@ -12,7 +12,9 @@ const Props = (props) => {
   return (
     <div>
         <h1>
-            {props.message} {props.name}
+            {/* {props.message} {props.name}   normal props passing
+            {props.message} {props.name}   {props.seatNumbers} Array passing as props */}
+            {props.person.message} {props.person.name}   {props.person.seatNumbers} Object passing as props
         </h1>
     </div>
   )
