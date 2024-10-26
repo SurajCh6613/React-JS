@@ -1,5 +1,6 @@
 import React from 'react'
 import Hello from './components/Hello'
+import Props from './components/Props'
 
 const App = () => {
   return (
@@ -11,6 +12,10 @@ const App = () => {
       <Hello />
       <Hello />
       <Hello />
+
+      {/* Props in react - Its like a parameter in function*/}
+      <Props name="Suraj" message="Hi"/>
+      <Props name="Rahul" message="Hi"/>
     </div>
   )
 }
