@@ -6,8 +6,11 @@ const App = () => {
     <div>
       {/* Component use */}
       <Hello /> 
-      
-         
+
+      {/* Component Re-usability */}
+      <Hello />
+      <Hello />
+      <Hello />
     </div>
   )
 }
