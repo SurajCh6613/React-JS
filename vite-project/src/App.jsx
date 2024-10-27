@@ -2,6 +2,7 @@ import React from 'react'
 import Hello from './components/Hello'
 import Props from './components/Props'
 import Map from './components/Map'
+import ConditionalRender from './components/ConditionalRender'
 
 const App = () => {
   const seatNumbers = [1,4,7]  // Array
@@ -26,6 +27,8 @@ const App = () => {
       <Props person={person}/>
 
       <Map />  
+
+      <ConditionalRender />
 
     </div>
   )
